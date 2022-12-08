@@ -1,0 +1,283 @@
+@font-face {
+  font-family: "Beetletree1";
+  src: url(fonts/Beetletree/Beetletree-Regular.otf); }
+
+@font-face {
+  font-family: "Beetletree2";
+  src: url(fonts/Beetletree/Beetletree-Bold.otf); }
+
+@font-face {
+  font-family: "Branchout";
+  src: url(fonts/Branchout/Branchout-Regular.otf); }
+
+@font-face {
+  font-family: "Breeze";
+  src: url(fonts/Breeze/Breeze-Regular.otf); }
+
+@font-face {
+  font-family: "Homesick";
+  src: url(fonts/Homesick/Homesick-Regular.otf); }
+
+@font-face {
+  font-family: "Horizon";
+  src: url(fonts/Horizon/Horizon-Regular.otf); }
+
+@font-face {
+  font-family: "MeltedPotato";
+  src: url(fonts/Melted_Potato/MeltedPotato-Regular.otf); }
+
+@font-face {
+  font-family: "NeedleCrossed1";
+  src: url(fonts/Needle_Crossed/Crossed.otf); }
+
+@font-face {
+  font-family: "NeedleCrossed2";
+  src: url(fonts/Needle_Crossed/Needle-Regular.otf); }
+
+@font-face {
+  font-family: "Peel";
+  src: url(fonts/Peel/PEEL-Regular.ttf); }
+
+@font-face {
+  font-family: "Peristalsis";
+  src: url(fonts/Peristalsis/Peristalsis.otf); }
+
+@font-face {
+  font-family: "Tabivetica";
+  src: url(fonts/Tabivetica/Tabivetica-Regular.otf); }
+
+@font-face {
+  font-family: "Tengram1";
+  src: url(fonts/Tengram/Tengram-Regular.ttf); }
+
+@font-face {
+  font-family: "Tengram2";
+  src: url(fonts/Tengram/Tengram-Bold.otf); }
+
+@font-face {
+  font-family: "TheVoid";
+  src: url(fonts/The_Void/TheVoid-Regular.otf); }
+
+
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: left;
+	color: black;
+	background: smokewhite;
+}
+
+
+header {
+	font-size: 14px;
+	float: left;
+	padding: 1% 3%;
+	width: 94%;
+	font-weight: bold;
+}
+
+.module {
+	width:100%;
+	height: 90vh;
+	float: left;
+	padding: 3%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-attachment: fixed;
+}
+
+.logo {
+	float: left;
+	width: 94%;
+}
+
+.description {
+	font-size: 30px;
+	margin-top: 4%;
+	float: left;
+	width: 72%;
+	clear: right;
+	letter-spacing: 0.05px;
+}
+
+.fontname {
+	font-size: 75px;
+	margin: 0;
+	padding: 0;
+}
+
+.blank {
+	width: 22%;
+	float: left;
+	clear: left;
+}
+
+.abc {
+	width: 72%;
+	font-size: 20px;
+	float: left;
+	letter-spacing: 3px;
+}
+
+.byline {
+	width: 94%;
+	float: left;
+	margin-top: 4%;
+	font-size: 14px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	line-height: 18px;
+}
+
+.download {
+	margin-left:47%;
+	width: 15%;
+	float: left;
+}
+.designer {
+	width: 15%;
+	margin: 0 1%;
+	float: left;
+}
+.contact {
+	width: 15%;
+	margin: 0 1%;
+	float: left;
+}
+
+footer {
+	width: 100%;
+	font-size: 14px;
+	float: left;
+	padding: 1% 3%;
+	font-weight: bold;
+}
+
+a:link {
+	text-decoration:none;
+	border-bottom: 1px solid black;
+	color: inherit;
+}
+
+a:visited {
+	text-decoration:none;
+	color: inherit;
+}
+
+a:hover{
+	text-decoration:none;
+	color: inherit;
+    border-bottom: 0;
+}
+
+a:active {
+	text-decoration:none;
+	color: inherit;
+}
+
+.logo img {
+	width: 8%;
+}
+
+.descriptionmp {
+	font-size: 20px;
+	margin-top: 4%;
+	float: left;
+	width: 72%;
+	clear: right;
+	letter-spacing: 0.05px;
+}
+
+.fontnamemp {
+	font-size: 28px;
+	margin: 0;
+	padding: 0;
+}
+
+.abcmp {
+	width: 72%;
+	font-size: 14px;
+	float: left;
+	letter-spacing: 3px;
+}
+
+/* RESPONSIVE ----------------------------- */
+@media screen and (max-width:800px){
+	header {
+		width: 80%;
+	}
+
+	.module {height: auto}
+
+	.blank {
+		display: none;
+	}
+
+	.description {
+		font-size: 20px;
+		clear: none;
+	}
+
+	.fontname {
+		font-size: 40px;
+	}
+
+	.abc {
+		font-size: 20px;
+		width: 80%;
+		word-break: break-all;
+	}
+
+	.byline {
+		font-size: 13px;
+		line-height: 17px;
+	}
+
+	.download {
+		margin-left:0;
+		margin-bottom: 3%;
+		width: 100%;
+	}
+	.designer {
+		width: 100%;
+		margin: 0 0 3% 0;
+	}
+	.contact {
+		width: 100%;
+		margin: 0 0 3% 0;
+	}
+
+	.descriptionmp {
+		font-size: 14px;
+		margin-top: 4%;
+		float: left;
+		width: 72%;
+		clear: right;
+		letter-spacing: 0.05px;
+	}
+
+	.fontnamemp {
+		font-size: 20px;
+		margin: 0;
+		padding: 0;
+	}
+
+	.abcmp {
+		width: 72%;
+		font-size: 8px;
+		float: left;
+		letter-spacing: 3px;
+	}
+}
+
+
+@media screen and (max-width:670px){
+	.logo img {
+		width: 20%;
+	}
+}
