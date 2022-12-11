@@ -110,13 +110,13 @@ header {
 }
 
 .blank {
-	width: 22%;
+	width: 32%;
 	float: left;
 	clear: left;
 }
 
 .abc {
-	width: 72%;
+	width: 62%;
 	font-size: 20px;
 	float: left;
 	letter-spacing: 3px;
@@ -207,7 +207,19 @@ a:active {
 }
 
 /* RESPONSIVE ----------------------------- */
-@media screen and (max-width:800px){
+@media screen and (max-width:900px){
+	.description {
+		width: 100%;
+	}
+
+	.fontname {
+		width: 100%;
+	}
+
+}
+
+
+@media screen and (max-width:820px){
 	header {
 		margin: 2% 0;
 	}
@@ -224,7 +236,6 @@ a:active {
 
 	.description {
 		font-size: 20px;
-		clear: none;
 		width: 100%;
 	}
 
