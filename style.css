@@ -66,7 +66,7 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 	text-align: left;
 	color: black;
-	background: smokewhite;
+	background: yellow;
 }
 
 
@@ -86,6 +86,7 @@ header {
 	padding: 3%;
 	background-size: contain;
 	background-repeat: no-repeat;
+	position: relative;
 }
 
 .logo {
@@ -124,7 +125,8 @@ header {
 .byline {
 	width: 94%;
 	float: left;
-	margin-top: 4%;
+	bottom: 6%;
+	position: absolute;
 	font-size: 14px;
 	font-family: Helvetica, Arial, sans-serif;
 	font-weight: bold;
@@ -179,7 +181,7 @@ a:active {
 }
 
 .logo img {
-	width: 8%;
+	width: 9%;
 }
 
 .descriptionmp {
@@ -207,7 +209,11 @@ a:active {
 /* RESPONSIVE ----------------------------- */
 @media screen and (max-width:800px){
 	header {
-		width: 80%;
+		margin: 2% 0;
+	}
+
+	footer {
+		margin: 2% 0;
 	}
 
 	.module {height: auto}
@@ -219,6 +225,7 @@ a:active {
 	.description {
 		font-size: 20px;
 		clear: none;
+		width: 100%;
 	}
 
 	.fontname {
@@ -227,13 +234,66 @@ a:active {
 
 	.abc {
 		font-size: 20px;
-		width: 80%;
+		width: 100%;
 		word-break: break-all;
 	}
 
 	.byline {
 		font-size: 13px;
 		line-height: 17px;
+		display: inline-block;
+		position: static;
+		margin-top: 4%;
+		bottom: none;
+	}
+
+	.download {
+		margin-left:0;
+		margin-bottom: 3%;
+		width: 46%;
+	}
+	.designer {
+		width: 46%;
+		margin: 0 0 3% 0;
+		clear: both;
+	}
+	.contact {
+		width: 46%;
+		margin: 0 0 3% 0;
+	}
+
+	.descriptionmp {
+		font-size: 18px;
+		margin-top: 4%;
+		float: left;
+		width: 72%;
+		clear: right;
+		letter-spacing: 0.05px;
+	}
+
+	.fontnamemp {
+		font-size: 24px;
+		margin: 0;
+		padding: 0;
+	}
+
+	.abcmp {
+		width: 72%;
+		font-size: 10px;
+		float: left;
+		letter-spacing: 3px;
+		word-break: break-all;
+	}
+}
+
+
+@media screen and (max-width:670px){
+	.logo img {
+		width: 20%;
+	}
+
+	.byline {
+		
 	}
 
 	.download {
@@ -248,34 +308,5 @@ a:active {
 	.contact {
 		width: 100%;
 		margin: 0 0 3% 0;
-	}
-
-	.descriptionmp {
-		font-size: 14px;
-		margin-top: 4%;
-		float: left;
-		width: 72%;
-		clear: right;
-		letter-spacing: 0.05px;
-	}
-
-	.fontnamemp {
-		font-size: 20px;
-		margin: 0;
-		padding: 0;
-	}
-
-	.abcmp {
-		width: 72%;
-		font-size: 8px;
-		float: left;
-		letter-spacing: 3px;
-	}
-}
-
-
-@media screen and (max-width:670px){
-	.logo img {
-		width: 20%;
 	}
 }
