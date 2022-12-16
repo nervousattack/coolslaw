@@ -207,7 +207,7 @@ a:active {
 }
 
 
-@media screen and (max-width:920px){
+@media screen and (max-width:920px), screen and (max-height: 850px){
 	.description {
 		width: 100%;
 		font-size: 2.35em;
